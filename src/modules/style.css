@@ -1,0 +1,236 @@
+.maindiv{
+    display:flex;
+    gap: 10px;
+    background-color: black;
+}
+h1{
+    font-family:cursive;
+}
+.div1{
+    width: 180px;
+    border: 2px solid transparent;
+    height: 550px;
+    align-items: center;
+    align-self: center;
+    align-content: flex-start;
+    
+}
+.but{
+    width: 100% !important;
+    border:transparent;
+    color: white !important;
+    align-content: end !important;
+}
+.but:hover{
+    background-color: rgb(178, 176, 176) !important;
+    transition: ease-in;
+}
+span{
+    position: relative;
+    left: 18px;
+}
+.comp1{
+    margin-left: -50px !important;
+}
+.comp2{
+    margin-left: -37px !important;
+}
+.comp3{
+    margin-left: -33px !important;
+}
+.comp4{
+    margin-left: -39px !important;
+}
+.comp5{
+    margin-left: -35px !important;
+}
+.div2{
+    border: 2px solid transparent;
+    height: 550px;
+    overflow-y: auto;
+    
+}
+.div2::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+.div22{
+    border: 2px solid transparent;
+    width: 720px;
+    height: 500px;
+    margin-top: 20px;
+    
+}
+.div3{
+    border:2px solid transparent;
+    width:300px;
+    height: 350px;
+    margin-top: 20px;
+}
+.but1{
+    margin-left: 65px;
+    background-color: black;
+    border: transparent;
+    color: blue;
+    cursor: pointer;
+    font-weight: 300;
+}
+.but1:hover{
+    background-color: black !important;
+    color: white !important; 
+}
+.profileImg{
+    border:2px solid black;
+    border-radius: 50%;
+    height: 150px;
+    margin-left: 80px;
+    width: 150px;
+    /* margin-left: 60%; */
+}
+.profiledata{
+    /* position:absolute; */
+    margin-left: 300px;
+    margin-top: -120px;
+    color: white;
+}
+.pbut{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 30px;
+    border: transparent;
+}
+.pbut:hover{
+    background-color: rgb(227, 224, 224);
+}
+.scrollable-container {
+    gap: 10px;
+    max-height: 500px;
+    max-width: 460px;
+    margin-left: 150px;
+}
+
+/* Hide scrollbar */
+.scrollable-container::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+.home3{
+    overflow-x: auto;
+    max-height: 100px;
+    max-width: 700px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.home3::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+
+.explore{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 10px;
+    border: 2px solid transparent;
+    height: 530px;
+    overflow-x: auto;
+    
+}
+.explore > div{
+    height: 280px;
+    width: 310px;
+    border: 2px solid transparent;
+    background-color: rgb(85, 80, 80);
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+.explore::-webkit-scrollbar {
+    width: 0;
+    display: none;
+}
+.explore>div:hover{
+    opacity: 0.5;
+}
+.exspan:hover{
+    display: block;
+}
+.full-img{
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-img img{
+    width: 90%;
+    max-width: 500px;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 1000px;
+}
+.full-img1{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+    /* background-color: rgba(0,0,0,0.9); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-img1 img{
+    width: 90%;
+    max-width: 500px;
+}
+.full-img1 span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 1000px;
+}
+.on-focus{
+    border-bottom:3px solid white !important;
+}
+.regbgc{
+    background-color: rgb(6, 6, 6);
+    color: white !important;
+   border-radius: 10px;
+}
+.regbgc::placeholder {
+    color: white !important;
+    margin-left: 10px !important; /* Change placeholder color here */
+  }
+.phnin{
+    position: relative;
+    border-radius: 15px !important;
+    background-color: rgb(6, 6, 6);
+   
+}
+.h1reg{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif !important;
+}
